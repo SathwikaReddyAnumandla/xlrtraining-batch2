@@ -1,4 +1,4 @@
-public class ltcode001 {
+public class LTcode001 {
     public static boolean isPalindrome(int x) {
         // Negative numbers and numbers ending with 0 (but not 0 itself) are not palindromes
         if (x < 0 || (x % 10 == 0 && x != 0)) {
