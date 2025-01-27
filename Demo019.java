@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class demo019 {
+public class Demo019 {
     static void fibo(int N){
         int num1 = 0, num2 = 1;
 
