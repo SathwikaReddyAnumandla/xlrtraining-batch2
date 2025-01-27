@@ -1,4 +1,4 @@
-public class ltcode003 {
+public class LTcode003 {
     public int myAtoi(String s) {
         if (s == null || s.isEmpty()) {
             return 0;
@@ -39,7 +39,7 @@ public class ltcode003 {
     }
 
     public static void main(String[] args) {
-        ltcode003 converter = new ltcode003();
+        LTcode003 converter = new LTcode003();
 
         
         System.out.println(converter.myAtoi("42")); // Output: 42
