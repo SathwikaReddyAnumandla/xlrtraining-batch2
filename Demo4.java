@@ -1,5 +1,5 @@
 
-public class demo4{
+public class Demo4{
     public static void main(String args[]) {
       
         // for loop to print numbers from 1 to 5
