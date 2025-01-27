@@ -7,7 +7,7 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
-public class ltcode004 {
+public class LTcode004 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0); // Placeholder for the result
         ListNode current = dummyHead; // Pointer to build the result list
@@ -41,7 +41,7 @@ public class ltcode004 {
         ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 
-        ltcode004 solution = new ltcode004();
+        LTcode004 solution = new LTcode004();
         ListNode result = solution.addTwoNumbers(l1, l2);
 
         // Print the result
